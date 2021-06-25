@@ -44,11 +44,11 @@ class App extends React.Component {
     return (
       <div className="App">
        <Nav count={this.state.cartCount} /> {/* Navbar  */}
-        <header class="bg-dark py-5">
-          <div class="container px-4 px-lg-5 my-5">
-            <div class="text-center text-white">
-              <h1 class="display-4 fw-bolder">RG Shop in style</h1>
-              <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+        <header className="bg-dark py-5">
+          <div className="container px-4 px-lg-5 my-5">
+            <div className="text-center text-white">
+              <h1 className="display-4 fw-bolder">RG Shop in style</h1>
+              <p className="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
             </div>
           </div>
         </header>
@@ -92,8 +92,8 @@ class App extends React.Component {
 
           </div>
         </div>
-        <footer class="py-5 bg-dark">
-          <div class="container"><p class="m-0 text-center text-white">Copyright © Raman Giri 2021</p></div>
+        <footer className="py-5 bg-dark">
+          <div className="container"><p className="m-0 text-center text-white">Copyright © Raman Giri 2021</p></div>
         </footer>
       </div>
     );
